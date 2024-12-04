@@ -43,7 +43,7 @@ jobs:
         arguments: '-PGHIDRA_INSTALL_DIR=${{ github.workspace }}/${{ env.ghidra-directory }}'
 
     - name: Upload built extension
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: extension
         path: nsis/dist/*.zip
@@ -55,7 +55,7 @@ jobs:
 
     steps:
     - name: Download built extension
-      uses: actions/download-artifact@v2
+      uses: actions/download-artifact@v4
       with:
         name: extension
     - name: Upload extension to release
