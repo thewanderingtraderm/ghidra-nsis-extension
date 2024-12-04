@@ -75,3 +75,5 @@ $ gradle -PGHIDRA_INSTALL_DIR=<path_to_ghidra>
 * NSIS home: https://nsis.sourceforge.io/
 * Data structures for NSIS file format: https://sourceforge.net/p/nsis/code/HEAD/tree/NSIS/trunk/Source/exehead/fileform.h
 * IDA plugin for NSIS files: https://github.com/isra17/nrs
+
+d
